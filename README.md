@@ -91,3 +91,9 @@ This is the place for you to write reflections:
 2. Rust menggunakan static variable yang immutable untuk menjaga keamanan dan mencegah data race. Jika digunakannya mutable static variable, data akan dapat dimodifikasi oleh thread sehingga akan menghilangkan keamanan yang Rust sudah buat. 
 
 #### Reflection Subscriber-2
+
+1. Saya belum mempelajari atau mengeksplorasi hal-hal lainnya selain dari sekitar tugas, karena saya sendiri yang memiliki keterbatasan waktu disebabkan tugas-tugas lain yang menumpuk setelah libur lebaran. Namun saya tertarik untuk mencari tahu lebih dalam tentang topik Rust dan selanjutnya.
+
+2. Observeer pattern membuat lebih mudah untuk menambah subscriber untuk mendapatkan notification. Masing-masing subscriber akan merespon dari bagian main dari program, sehingga mudah untuk dimodifikasi dan untuk menambahkan fitur baru, dengan syarat subscriber-subscriber baru mengikuti bentuk dari subscriber awal dan mengikuti program main.
+
+3. Menggunakan Postman dapat mempermudah pembuatan test dimana dibuat agar dapat mengecek API dan merespons dengan automatis. Hal tersebut membuat aplikasi atau program untuk berjalan sesuai harapan dengan menjalankan test sesuai dengan output yang diminta. 
