@@ -86,4 +86,8 @@ This is the place for you to write reflections:
 
 #### Reflection Subscriber-1
 
+1. Digunakannya `RwLock<>` untuk synchronise penggunaan `Vec` pada Notification karena digunakannya multi-thread yang dapat dibaca sekaligus atau satu thread yang dapat dimodifikasi pada waktu tertentu. Dimana `Mutex` membatasi akses untuk single thread yang dapat menyebabkan blocking dan concurrency yang menurun.
+
+2. Rust menggunakan static variable yang immutable untuk menjaga keamanan dan mencegah data race. Jika digunakannya mutable static variable, data akan dapat dimodifikasi oleh thread sehingga akan menghilangkan keamanan yang Rust sudah buat. 
+
 #### Reflection Subscriber-2
