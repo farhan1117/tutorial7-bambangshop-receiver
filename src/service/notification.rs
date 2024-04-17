@@ -88,4 +88,9 @@ impl NotificationService {
             ))
         }
     }
+
+    pub fn receive(payload: Notification) -> Result<Notification> {
+        let subscriber_result: Notification = NotificationRepository::add(payload);
+        return Ok(subscriber_result);
+    }
 }
